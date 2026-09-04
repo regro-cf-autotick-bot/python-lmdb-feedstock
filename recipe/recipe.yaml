@@ -14,7 +14,7 @@ source:
     - 0001-typedef-pid_t-on-win.patch
 
 build:
-  number: 0
+  number: 1
   script:
     - if: aarch64 or ppc64le
       then: |
